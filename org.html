@@ -2,8 +2,11 @@
   <head>
     <title>Organigrama Operaciones</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/rs.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./org.css" media="screen" />
     <meta charset="UTF-8" />
     <script src="script.js"></script>
+    
     <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
   </head>
 
@@ -11,9 +14,27 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-flextree@2.1.2/build/d3-flextree.js"></script>
-    
+ <!--
+ <script>
+      var zoom = 1;
+        
+        $('.zoom').on('click', function(){
+          zoom += 0.1;
+          $('.target').css('transform', 'scale(' + zoom + ')');
+        });
+        $('.zoom-init').on('click', function(){
+          zoom = 1;
+          $('.target').css('transform', 'scale(' + zoom + ')');
+        });
+        $('.zoom-out').on('click', function(){
+          zoom -= 0.1;
+          $('.target').css('transform', 'scale(' + zoom + ')');
+        });
+    </script>
+  -->
+
     <div
-      class="chart-container"
+      class="chart-container target"
       style="height: 1200px; background-color: powderblue"
     ></div>
 
@@ -147,12 +168,17 @@
           .render();
       });
     </script>
+<a class="btn zoom"><i class="fas fa-search-plus"></i></a>
+<a class="btn zoom-out"><i class="fas fa-search-minus"></i></a>
+<a class="btn zoom-init"><i class="fas fa-recycle"></i></a>
+
 
     <a
       target="_blank"
-      href="https://github.com/bumbeishvili/d3-organization-chart"
+      href="https://github.com/ccamposhanredsalud/organigrama/tree/main/org-chart-master"
     >
     </a>
+  
   </body>
   <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 </html>
