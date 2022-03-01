@@ -1,0 +1,4 @@
+name,imgUrl,area,profileUrl,office,tags,isLoggedUser,positionName,id,parentId,size
+Edgardo Falcón,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/EdgardoFalcon.jpg,Operaciones,http://example.com/employee/profile,Operaciones,"Gerente, Operaciones",FALSE,Gerente de Operaciones,O-01,,
+Claudio Campos,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/ClaudioCampos.jpg,Operaciones,http://example.com/employee/profile,Compras,"Jefe, Operaciones, Proyectos",FALSE,Jefe de proyectos,O-02,O-01,2023
+Andrés Castillo,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/EdgardoFalcon.jpg,Operaciones,http://example.com/employee/profile,Bicentenario,,FALSE,Analista Senior Operaciones,O-03,O-02,2023
