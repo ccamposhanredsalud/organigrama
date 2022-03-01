@@ -1,5 +1,5 @@
 name,imageUrl,area,profileUrl,office,tags,isLoggedUser,positionName,id,parentId,size
-Edgardo Falcón,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/EdgardoFalcon.jpg,Operaciones,http://example.com/employee/profile,Corporativo,"gerente,operaciones,corporativo",false,Gerente de Operaciones ,O-1,,
+Edgardo Falcón,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/EdgardoFalcon.jpg,Operaciones,http://example.com/employee/profile,Corporativo,"gerente,operaciones,corporativo",true,Gerente de Operaciones ,O-1,,
 Claudio Campos,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/ClaudioCampos.JPG,Operaciones,http://example.com/employee/profile,Corporativo,"jefe,proyectos, operaciones",false,Jefe de proyectos ,O-2,O-1,
 Carlos Villareal,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/default.jpg,Operaciones,http://example.com/employee/profile,Corporativo,"jefe,proyectos, operaciones",false,Jefe de planificación y gestión operacional ,O-3,O-1,
 Andrés Castillo,https://raw.githubusercontent.com/ccamposhanredsalud/organigrama/main/Photos/AndresCastillo.jpg,Operaciones,http://example.com/employee/profile,Clínica Bicentenario,"analista,senior, operaciones, bicentenario",false,Analista Senior Operaciones ,O-4,O-2,
